@@ -1,0 +1,27 @@
+= 这是一个示例(this file encoding is UTF-8)
+0000-bigtree
+v1.0.0, 2015-05-11
+
+== 中文(Chinese in html rendered fine) 
+
+this png not rendered Chinese correctly
+
+[ditaa, "header", "png"]
+----
++---------+
+| 4 bytes | CRC
++---------+
+| 1 byte  | 协议版本
++---------+
+| 2 bytes | 消息类型 ID(命令码)
++---------+
+----
+
+== JRuby
+<<<
+
+this png not rendered Chinese correctly too
+
+ditaa::example.ditaa[format="png", align="center"]
+
+
